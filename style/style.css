@@ -2,6 +2,6 @@
     --primary-color: #ffcc00;
 }
 
-navbar {
+.gold-back {
     background-color: var(--primary-color);
 }

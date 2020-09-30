@@ -1,4 +1,4 @@
-<nav class="navbar navbar-light">
+<nav class="navbar navbar-light gold-back">
     <a class="navbar-brand" href="/index.php">
         <img src="/images/logo-small.png" width="30" height="30" class="d-inline-block align-top" alt="Website Logo" loading="lazy">
         Golden Apple Orchard
