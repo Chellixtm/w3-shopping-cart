@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/common/nav.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/common/navbar.php'; ?>
 </body>
 
 <footer>
