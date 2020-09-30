@@ -5,3 +5,7 @@
 .gold-back {
     background-color: var(--primary-color);
 }
+
+.icon-round {
+    border-radius: 10%;
+}
