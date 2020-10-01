@@ -12,7 +12,7 @@
 <body>
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/common/navbar.php'; ?>
 
-    <div class="jumbotron">
+    <div class="jumbotron jumbo-apple">
         <h1 class="display-4">Welcome to the Golden Apple Orchard!</h1>
         <p class="lead">We are a local apple farm excited to provide the area with delicious and colorful apples fresh off the tree!</p>
         <hr class="my-4">
