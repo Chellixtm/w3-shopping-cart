@@ -5,7 +5,7 @@
     </a>
     <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-            <a class="nav-link" href="/view/assignments.php">Browse Apples</a>
+            <a class="nav-link" href="/view/viewCart.php">Browse Apples</a>
         </li>
     </ul>
     <a class="navbar-brand" href="/view/viewCart.php">

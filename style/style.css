@@ -9,3 +9,9 @@
 .icon-round {
     border-radius: 10%;
 }
+
+.jumbo-apple {
+    background-image: url("/images/jumbotron-apple.png");
+    background-size: cover;
+    background-position: center;
+}
