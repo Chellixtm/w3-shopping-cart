@@ -15,7 +15,9 @@
     <?php 
         if(isset($_SESSION['cart'])) {
             foreach($_SESSION['cart'] as $item) {
-                print($item);
+                foreach($item as $i) {
+                    print($i);
+                }
             }
         } else print("No Items in cart.");
     ?>
