@@ -11,9 +11,9 @@ function buildbrowse($apple) {
     $browsea .= "<option value='three-lbs'>3 Pounds</option>";
     $browsea .= "<option value='peck'>Peck</option>";
     $browsea .= "</select>";
-    $browsea .= "</input type='submit' name='submit' value='Add to Cart'>";
+    $browsea .= "<input type='submit' name='submit' value='Add to Cart'>";
     $browsea .= "<input type='hidden' name='name' value='$apple[0]'>";
-    $browsea .= "<input type='hidden' name='action' value='add'";
+    $browsea .= "<input type='hidden' name='action' value='add'>";
     $browsea .= "</form>";
     $browsea .= "</div>";
     return $browsea;
