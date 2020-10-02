@@ -17,7 +17,7 @@
         <p class="lead">We are a local apple farm excited to provide the area with delicious and colorful apples fresh off the tree!</p>
         <hr class="my-4">
         <p>To browse our current apple selection, just start by pressing the button below!</p>
-        <a class="btn btn-primary btn-lg" href="/view/browse.php" role="button">Browse</a>
+        <a class="btn btn-primary btn-lg" href="/shopping/index.php?action=browse" role="button">Browse</a>
     </div>
 </body>
 

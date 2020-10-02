@@ -11,6 +11,10 @@
 
 <body>
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/common/navbar.php'; ?>
+    
+    <div class="container">
+    <?= $showbr?>
+    </div>
 </body>
 
 </html>
