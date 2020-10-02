@@ -8,7 +8,7 @@
             <a class="nav-link" href="/shopping/index.php?action=browse">Browse Apples</a>
         </li>
     </ul>
-    <a class="navbar-brand" href="/view/viewCart.php">
+    <a class="navbar-brand" href="/shopping/index.php?action=viewCart">
         <img src="/images/cart-small.png" width="30" height="30" class="d-inline-block align-top icon-round" alt="Cart" loading="lazy">
     </a>
 </nav>

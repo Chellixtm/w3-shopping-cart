@@ -11,6 +11,8 @@
 
 <body>
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/common/navbar.php'; ?>
+
+    <?=$_SESSION['cart']?>
 </body>
 
 <footer class="footer mt-auto py-3">

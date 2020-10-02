@@ -26,6 +26,14 @@ switch ($action) {
         include $_SERVER['DOCUMENT_ROOT'] . '/view/browse.php';
         break;
     case 'add':
+        $name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_STRING);
+        $quantity = filter_input(INPUT_POST, 'quantity', FILTER_SANITIZE_NUMBER_INT);
+        $type = filter_input(INPUT_POST, 'type', FILTER_SANITIZE_STRING);
+
+        $forcart = array($name, $quantity, $type);
+
+        addToCart($forcart);
+
         header('Location: /shopping/index.php?action=browse');
         break;
     case 'viewCart':
