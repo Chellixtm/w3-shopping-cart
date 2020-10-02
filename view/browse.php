@@ -19,4 +19,8 @@
     </div>
 </body>
 
+<footer class="footer mt-auto py-3">
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/common/footer.php'; ?>
+</footer>
+
 </html>

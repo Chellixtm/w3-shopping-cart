@@ -6,7 +6,7 @@ function buildbrowse($apple) {
     $browsea .= "<p>Delicious apples picked fresh from our farm!</p>";
     $browsea .= "<p>Quantity Desired:</p>";
     $browsea .= "<form action='/shopping/index.php' method='post'>";
-    $browsea .= "<input type='number' min='0' max='999' name='quantity'>";
+    $browsea .= "<input type='number' min='0' max='999' name='quantity' style='margin-right:2rem'>";
     $browsea .= "<select name='size' id='size' name='type'>";
     $browsea .= "<option value='three-lbs'>3 Pounds</option>";
     $browsea .= "<option value='peck'>Peck</option>";
