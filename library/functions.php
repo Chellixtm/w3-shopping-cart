@@ -10,4 +10,5 @@ function buildbrowse($apple) {
     $browsea .= "<option value='peck'>Peck</option>";
     $browsea .= "</select>";
     $browsea .= "</div>";
+    return $browsea;
 }
