@@ -1,7 +1,7 @@
 <?php
 function buildbrowse($apple) {
-    $browsea = "<div class='col-lg'>";
-    $browsea .= "<img src='/images/$apple[1]' class='icon-round' height='150px' width='150px />";
+    $browsea = "<div class='col-md'>";
+    $browsea .= "<img src='/images/$apple[1]' class='icon-circle' height='150px' width='150px' />";
     $browsea .= "<h2>$apple[0]</h2>";
     $browsea .= "<p>Delicious apples picked fresh from our farm!</p>";
     $browsea .= "<p>Quantity Desired:</p>";

@@ -10,6 +10,10 @@
     border-radius: 10%;
 }
 
+.icon-circle {
+    border-radius: 50%;
+}
+
 .jumbo-apple {
     background-image: url("/images/jumbotron-apple.png");
     background-size: cover;
