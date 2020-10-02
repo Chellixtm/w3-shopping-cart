@@ -12,17 +12,20 @@
 <body>
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/common/navbar.php'; ?>
 
-    <?php 
-        if(isset($_SESSION['cart'])) {
-            foreach($_SESSION['cart'] as $item) {
-                foreach($item as $i) {
-                    print($i);
-                }
+    <?php
+    if (isset($_SESSION['cart'])) {
+        foreach ($_SESSION['cart'] as $item) {
+            foreach ($item as $i) {
+                print($i);
             }
-        } else print("No Items in cart.");
+        }
+    } else print("No Items in cart.");
     ?>
+    <form action="/shopping/index.php" method="POST">
+        <input type="hidden" name="clear" value="clearCart">
+        <input type="submit" name="submit" value="Clear Cart">
+    </form>
 </body>
-
 <footer class="footer mt-auto py-3">
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/common/footer.php'; ?>
 </footer>

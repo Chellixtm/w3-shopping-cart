@@ -39,6 +39,11 @@ switch ($action) {
     case 'viewCart':
         include $_SERVER['DOCUMENT_ROOT'] . '/view/viewCart.php';
         break;
+    case 'clearCart':
+        if (isset($_SESSION['cart'])) {
+            $_SESSION['cart'] = '';
+        }
+        break;
     case 'checkout':
         include $_SERVER['DOCUMENT_ROOT'] . '/view/checkout.php';
         break;

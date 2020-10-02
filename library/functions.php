@@ -23,6 +23,6 @@ function addToCart($forcart) {
     if(!isset($_SESSION['cart'])) {
         $_SESSION['cart'] = array($forcart);
     } else {
-        $_SESSION['cart'].array_push($forcart);
+        array_push($_SESSION['cart'], $forcart);
     }
 }
