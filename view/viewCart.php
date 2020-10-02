@@ -12,7 +12,13 @@
 <body>
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/common/navbar.php'; ?>
 
-    <?=$_SESSION['cart']?>
+    <?php 
+        if(isset($_SESSION['cart'])) {
+            foreach($_SESSION['cart'] as $item) {
+                print($item);
+            }
+        } else print("No Items in cart.");
+    ?>
 </body>
 
 <footer class="footer mt-auto py-3">
