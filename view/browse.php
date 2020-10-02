@@ -13,7 +13,7 @@
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/common/navbar.php'; ?>
 
     <div class="container browse-pad">
-        <div class="row justify-content-md-center">
+        <div class="row">
             <?= $showbr ?>
         </div>
     </div>
