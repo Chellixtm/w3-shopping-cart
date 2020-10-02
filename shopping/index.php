@@ -6,7 +6,7 @@ require_once $_SERVER['DOCUMENT_ROOT'].'/library/functions.php';
 $apples = array(
     array("Fuji","fuji.png",4,12),
     array("Gala","gala.png",3,8),
-    array("Golden Delicious","golden-delicious.png",4,12),
+    array("Golden Del.","golden-delicious.png",4,12),
     array("Granny Smith","granny-smith.png",4,12),
     array("Honeyscrisp","honeycrisp.png",6,20),
     array("Ambrosia","ambrosia.png",3,8)
