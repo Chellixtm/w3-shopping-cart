@@ -1,3 +1,4 @@
+/* Global CSS Commands ----------------------------------------------------- */
 :root {
     --primary-color: #ffcc00;
 }
@@ -14,11 +15,17 @@
     border-radius: 50%;
 }
 
+
+/* Homepage ---------------------------------------------------------------- */
+
 .jumbo-apple {
     background-image: url("/images/jumbotron-apple.png");
     background-size: cover;
     background-position: center;
 }
+
+
+/* Browse ------------------------------------------------------------------ */
 
 .browse-pad {
     padding-top: 2rem;
@@ -26,4 +33,33 @@
 
 .center-text {
     text-align: center;
+}
+
+
+/* View Cart --------------------------------------------------------------- */
+
+.cart-height {
+    min-height: 40vh;
+}
+
+.col-pad {
+    padding: 1rem;
+}
+
+.inherit-min {
+    min-height: inherit;
+}
+
+.cart-border {
+    border: 3px solid #4d4d4d;
+    border-radius: 5px;
+}
+
+/* For testing */
+.background-red {
+    background-color: red;
+}
+
+.background-green {
+    background-color: green;
 }
