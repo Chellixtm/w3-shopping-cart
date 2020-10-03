@@ -43,7 +43,7 @@
                                 echo "<br>\t$item[name]: $$item[cost].00";
                             }
                             echo "<br><b>Total: $$total.00</b></p>";
-                            echo "<a class='btn btn-primary' href='/shopping/index?action=checkout'>Checkout</a>";
+                            echo "<a class='btn btn-primary' href='/shopping/index.php?action=checkout'>Checkout</a>";
                         } else {
                             echo "There are no items in your cart.</p>";
                         }
